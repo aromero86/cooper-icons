@@ -1,1 +1,0 @@
-Version 2.0.8 de Phosphor Icons
