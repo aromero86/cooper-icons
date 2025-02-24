@@ -1,12 +1,16 @@
-import { Component } from '@angular/core';
-import { CooperIconsComponent } from 'cooper-icons';
+import { Component }          from '@angular/core';
+// --------------------------------------------------------
+import { UiIconUmbrellaBold } from 'cooper-icons/umbrella-bold'
+// --------------------------------------------------------
+import { UiIcon }             from './ui-icon';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
     imports: [
-        CooperIconsComponent,
+        UiIcon,
+        UiIconUmbrellaBold,
     ],
 })
 export class AppComponent { }

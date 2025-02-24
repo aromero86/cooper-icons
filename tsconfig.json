@@ -4,9 +4,9 @@
     "compileOnSave": false,
     "compilerOptions": {
         "paths": {
-            "cooper-icons": [
-                "./projects/cooper-icons/src/public-api.ts"
-            ]
+            "cooper-icons/*": [
+                "./projects/cooper-icons/src/*"
+            ],
         },
         "outDir": "./dist/out-tsc",
         "strict": true,
