@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cooper-icons": {
+    "angular-phosphor-icons": {
       "projectType": "library",
-      "root": "projects/cooper-icons",
-      "sourceRoot": "projects/cooper-icons/src",
+      "root": "projects/angular-phosphor-icons",
+      "sourceRoot": "projects/angular-phosphor-icons/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/cooper-icons/ng-package.json"
+            "project": "projects/angular-phosphor-icons/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/cooper-icons/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-phosphor-icons/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/cooper-icons/tsconfig.lib.json"
+              "tsConfig": "projects/angular-phosphor-icons/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/cooper-icons/tsconfig.spec.json",
+            "tsConfig": "projects/angular-phosphor-icons/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

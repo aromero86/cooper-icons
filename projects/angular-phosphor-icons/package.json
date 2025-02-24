@@ -1,11 +1,11 @@
 {
-    "name": "cooper-icons",
+    "name": "angular-phosphor-icons",
     "description": "Phosphor icons for Angular",
     "author": "Angel Romero",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/aromero86/cooper-icons.git"
+        "url": "https://github.com/aromero86/angular-phosphor-icons.git"
     },
     "version": "0.0.1",
     "peerDependencies": {

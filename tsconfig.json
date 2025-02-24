@@ -4,8 +4,8 @@
     "compileOnSave": false,
     "compilerOptions": {
         "paths": {
-            "cooper-icons/*": [
-                "./projects/cooper-icons/src/*"
+            "angular-phosphor-icons/*": [
+                "./projects/angular-phosphor-icons/src/*"
             ],
         },
         "outDir": "./dist/out-tsc",

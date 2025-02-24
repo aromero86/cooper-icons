@@ -1,6 +1,6 @@
 import { Component }          from '@angular/core';
 // --------------------------------------------------------
-import { UiIconUmbrellaBold } from 'cooper-icons/umbrella-bold'
+import { UiIconUmbrellaBold } from 'angular-phosphor-icons/umbrella-bold'
 // --------------------------------------------------------
 import { UiIcon }             from './ui-icon';
 

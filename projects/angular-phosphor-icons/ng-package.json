@@ -1,6 +1,6 @@
 {
     "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-    "dest": "../../dist/cooper-icons",
+    "dest": "../../dist/angular-phosphor-icons",
     "lib": {
         "entryFile": "src/index.ts"
     }
